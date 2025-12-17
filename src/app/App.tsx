@@ -13,7 +13,7 @@ import { BlogPostLayout } from './components/BlogPostLayout';
 import { AdventurePostLayout } from './components/AdventurePostLayout';
 import { AdventuresPage } from './pages/AdventuresPage';
 import { GalleryPage } from './pages/GalleryPage';
-import { ShopPage } from './pages/ShopPage';
+import { ShopOverviewPage } from './pages/ShopOverviewPage';
 import { WorkWithUsPage } from './pages/WorkWithUsPage';
 import { ReelsPage } from './pages/ReelsPage';
 import { BlogsPage } from './pages/BlogsPage';
@@ -206,7 +206,7 @@ export default function App() {
         return <GalleryPage />;
 
       case 'shop':
-        return <ShopPage />;
+        return <ShopOverviewPage />;
 
       case 'reels':
         return <ReelsPage />;
